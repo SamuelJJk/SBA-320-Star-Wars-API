@@ -1,4 +1,8 @@
 import './App.css';
+import {Routes,Route,createBrowserRouter,createRoutesFromElements,RouterProvider, Router} from 'react-router-dom'
+import Main from './Pages/Main';
+import Bios from './Pages/Bios';
+
 
 function App() {
   const getStarWarsData = async()=>{
@@ -9,6 +13,10 @@ function App() {
   getStarWarsData();
   return (
     <div className="App">
+      <Routes>
+        <Route path='/' element={<Main/>} />
+        <Route path='/Bios' element={<Bios/>} />
+      </Routes>
     </div>
   );
 }
