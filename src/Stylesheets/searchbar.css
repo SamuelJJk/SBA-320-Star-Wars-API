@@ -1,0 +1,25 @@
+.searchbar {
+    border: solid orange;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+}
+
+.search {
+    width: 50%;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.dropdown select {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
