@@ -1,11 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../Stylesheets/searchbar.css'
 
-function SearchBar() {
+function SearchBar({category}) {
+    const [selectedCategory, setSelectedCategory] = useState('films'); // 
+
+    const handleCategoryChange = (event) => {
+      const selectedValue = event.target.value;
+      setSelectedCategory(selectedValue);
+      category(selectedValue); 
+    };
   return (
     <div className='searchbar'>
       <div className="dropdown">
-        <select>
+        <select value={selectedCategory} onChange={handleCategoryChange}>
           <option value="films">films</option>
           <option value="people">people</option>
           <option value="planets">planets</option>
