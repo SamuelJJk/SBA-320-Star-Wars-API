@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     getCategory("films");
   }, []);
-  console.log(subject.name)
+// console.log(subject)
   return (
     <div className="App">
       <Routes>

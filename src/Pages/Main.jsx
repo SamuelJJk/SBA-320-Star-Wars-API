@@ -4,6 +4,7 @@ import SearchBar from '../Components/SearchBar'
 import Display from '../Components/Display'
 
 function Main({category,subject}) {
+  // console.log(subject)
   return (
     <div>
       <Navbar />

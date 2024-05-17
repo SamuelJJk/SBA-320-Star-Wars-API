@@ -8,8 +8,8 @@ function Display({subject}) {
     <div className='display'>
       <div className="catTitle">Genre</div> 
       <div className="cardContainer"> 
-        {subject.map((item)=>{
-            return <Card subject={subject}/>
+        {subject.map((item,index)=>{
+            return <Card item={item}/>
         })}
       </div> 
     </div>
