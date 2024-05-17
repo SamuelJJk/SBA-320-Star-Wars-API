@@ -11,8 +11,8 @@ function App() {
     try{
       const response = await fetch(`https://swapi.dev/api/${searchTerm}`);
       const data = await response.json();
-      console.log(data.results)
-      setSubject(data)
+      // console.log(data.results)
+      setSubject(data.results)
     } catch (e){
       console.error(e)
     }
@@ -20,12 +20,13 @@ function App() {
   useEffect(() => {
     getCategory("films");
   }, []);
-
-  
+  console.log(subject.name)
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Main category={getCategory}/>} />
+        {subject &&(
+          <Route path='/' element={<Main category={getCategory} subject={subject}/>} />
+        )}
         <Route path='/Bios' element={<Bios/>} />
       </Routes>
     </div>

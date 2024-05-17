@@ -1,0 +1,25 @@
+.card{
+    border-radius: 101px 52px 30px 30px;
+    border: 1px solid #000000;
+    width: 370px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    margin: auto;
+}
+.imageWindow{
+    margin: auto;
+
+    border:5px dotted black;
+    width: 250px;
+    height: 140px;
+}
+.textWindow{
+    margin: auto;
+    border:1px solid black;
+    width: 250px;
+    height: 140px;
+}
