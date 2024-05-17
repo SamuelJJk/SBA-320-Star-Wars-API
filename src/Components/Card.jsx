@@ -6,8 +6,6 @@ function Card({item}) {
   return (
     <div className='card'>
         <div className="title">{item.title || item.name}</div>
-      <div className="imageWindow"></div>
-      <div className="textWindow"></div>
 
     </div>
   )

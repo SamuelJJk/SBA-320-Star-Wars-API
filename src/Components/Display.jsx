@@ -6,7 +6,6 @@ function Display({subject}) {
     // console.log(subject)
   return (
     <div className='display'>
-      <div className="catTitle">Genre</div> 
       <div className="cardContainer"> 
         {subject.map((item,index)=>{
             return <Card item={item}/>

@@ -1,0 +1,14 @@
+
+.selections{
+    background: linear-gradient(to right, lightblue, beige);
+    width: 300px;
+    height:60px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.selections option{
+    color: green;
+}

@@ -1,7 +1,5 @@
 .display{
-    border: solid lime;
-    /* height: 700px; */
-    /* display: flex; */
+    /* border: solid lime; */
     justify-content: space-evenly;
     padding: 15px;
     margin: auto;
@@ -11,9 +9,9 @@
     font-size: 40px;
 }
 .cardContainer{
-    border:solid fuchsia;
+    /* border:solid fuchsia; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 15px;
     margin: auto;
     flex-wrap: wrap;

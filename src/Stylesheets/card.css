@@ -1,11 +1,12 @@
 .card{
-    border-radius: 101px 52px 30px 30px;
+    border-radius: 20px;
     border: 1px solid #000000;
     width: 370px;
-    height: 380px;
+    height: 90px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 5px;
 }
 .title{
     margin: auto;

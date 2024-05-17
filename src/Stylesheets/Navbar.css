@@ -1,11 +1,11 @@
 .nav{
-    border: solid black;
+    /* border: solid black; */
     height: 55px;
     display: flex;
     justify-content: space-evenly;
-    background-color: grey;
     position: relative;
-    z-index: -2;
+    /* z-index: -2; */
+    box-shadow: 0px 10px 13px -7px #B2B2B2, 0px 5px 5px 0px rgba(178,178,178,0);
 }
 .left,.right,.middle{
     display: flex;
